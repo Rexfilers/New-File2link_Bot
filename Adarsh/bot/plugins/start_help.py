@@ -76,7 +76,7 @@ async def start(b, m):
             return
     await StreamBot.send_photo(
         chat_id=m.chat.id,
-        photo ="https://graph.org/file/250eaf9cebf980980df65.jpg",
+        photo ="https://telegra.ph/file/b056f366706b47e6720fc.jpg",
         caption =f'ʜᴇʟʟᴏ...⚡ {m.from_user.mention(style="md")}!,\n\nI am Telegram File to Link Generator Bot with Channel support.\n\nsᴇɴᴅ ᴍᴇ ᴀɴʏ ᴠɪᴅᴇᴏ / ғɪʟᴇ ᴛᴏ sᴇᴇ ᴍʏ ᴘᴏᴡᴇʀᴢ...',
         reply_markup=buttonz)
 
