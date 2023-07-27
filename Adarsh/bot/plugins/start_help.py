@@ -55,7 +55,7 @@ async def start(b, m):
         except UserNotParticipant:
              await StreamBot.send_photo(
                 chat_id=m.chat.id,
-                photo="https://graph.org/file/250eaf9cebf980980df65.jpg",
+                photo="https://telegra.ph/file/b056f366706b47e6720fc.jpg",
                 caption="<i>𝙹𝙾𝙸𝙽 CHANNEL 𝚃𝙾 𝚄𝚂𝙴 𝙼𝙴🔐</i>",
                 reply_markup=InlineKeyboardMarkup(
                     [
@@ -118,7 +118,7 @@ async def help_handler(bot, message):
         except Exception:
             await bot.send_message(
                 chat_id=message.chat.id,
-                text="__Sᴏᴍᴇᴛʜɪɴɢ ᴡᴇɴᴛ Wʀᴏɴɢ. Cᴏɴᴛᴀᴄᴛ ᴍᴇ__ [AMIR BISTA](https://t.me/Ab_Admin0).",
+                text="__Sᴏᴍᴇᴛʜɪɴɢ ᴡᴇɴᴛ Wʀᴏɴɢ. Cᴏɴᴛᴀᴄᴛ ᴍᴇ__ [REX](https://t.me/Rexisop99).",
                 disable_web_page_preview=True)
             return
     await message.reply_text(
@@ -128,8 +128,8 @@ async def help_handler(bot, message):
         disable_web_page_preview=True,
         reply_markup=InlineKeyboardMarkup(
             [
-                [InlineKeyboardButton("💁‍♂️ DEV", url="https://t.me/Ab_Admin0")],
-                [InlineKeyboardButton("💥 Join Us", url="https://t.me/AB_BotZ_Update")]
+                [InlineKeyboardButton("💁‍♂️ DEV", url="https://t.me/Rexisop99")],
+                [InlineKeyboardButton("💥 Join Us", url="https://t.me/MOVIES_PROVIDE2")]
             ]
         )
     )
